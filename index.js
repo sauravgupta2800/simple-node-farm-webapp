@@ -16,7 +16,6 @@ const server = http.createServer((req, res) => {
     const requestURL = new URL(req.url, baseURL);
     const pathName = requestURL.pathname;
     const query = requestURL.searchParams;
-    console.log(pathName, query);
     if(pathName === "/overview" || pathName === "/"){
         res.writeHead(200,{
             'Content-type':'text/html'
