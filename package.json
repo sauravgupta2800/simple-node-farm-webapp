@@ -1,0 +1,19 @@
+{
+  "name": "node-farm",
+  "version": "1.0.0",
+  "description": "Learning NodeJS from Udemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sauravgupta2800/simple-node-farm-webapp.git"
+  },
+  "author": "Saurav Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sauravgupta2800/simple-node-farm-webapp/issues"
+  },
+  "homepage": "https://github.com/sauravgupta2800/simple-node-farm-webapp#readme"
+}
